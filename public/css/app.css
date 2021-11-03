@@ -11247,5 +11247,22 @@ textarea.form-control-lg {
   justify-content: center;
 }
 #ms_movies .row .ms_card {
-  border: 2px solid black;
+  border: 2px solid white;
+  margin: 15px;
+  padding: 20px;
+  background-color: darkgray;
+}
+#ms_movies .row .ms_card p {
+  text-align: center;
+  color: white;
+}
+#ms_movies .row .ms_card p .ms_special {
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.5rem;
+  border: 2px solid white;
+}
+
+body {
+  background-color: black;
 }
