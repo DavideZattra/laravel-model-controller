@@ -11243,3 +11243,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#ms_movies .row {
+  justify-content: center;
+}
+#ms_movies .row .ms_card {
+  border: 2px solid black;
+}

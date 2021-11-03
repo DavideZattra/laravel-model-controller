@@ -15,7 +15,7 @@ class HomeController extends Controller
          
         $data = ["movies" => $movies];
 
-        return view('home');
+        return view('home', $data);
     }
 
 }
